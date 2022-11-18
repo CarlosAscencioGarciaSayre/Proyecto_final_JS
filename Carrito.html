@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="title" content=" Tazas > Espectaculares tazas personalizadas">
+
+    <meta name="description" content="Estudiante del curso de full stack developer de Becas Jovenes Bicentenario." />
+
+    <meta name="keywords"
+        content="tazas personalizadas, regalos de tazas, tazas para regalar, tazas con mi foto, colocar imagen en taza" />
+
+    <meta name="author" content="Carlos Garcia" />
+
+    <meta name="copyright" content="Carlos Garcia" />
+
+
+
+    <link rel="icon" type="image/png" href="isologo0.png" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/4528e1adbf.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+
+    <title>Carrito</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <img class="btn-whatsapp" src="https://clientes.dongee.com/whatsapp.png" width="64" height="64" alt="Whatsapp"
+        onclick="window.location.href='https://wa.me/51978667561?text=Hola!%20¿Cómo%20estas?%20Visité%20tu%20página'">
+
+
+    <header class="header">
+        <div class="header_center">
+
+            <div class="logo">
+                <a href="index.html">
+                    <img src="logo0.png" alt="Logo tazas">
+                </a>
+            </div>
+
+            <input type="checkbox" id="click">
+            <label for="click" class="icon_menu">
+                <i class="fas fa-bars"></i>
+            </label>
+
+            <nav class="nav">
+
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="Tienda.html">Tienda</a></li>
+                    <li><a href="Carrito.html">Carrito</a></li>
+                    <li><a href="Contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+    <div class="space_header"></div>
+    <div class="space"></div>
+    <div class="carrito_contenedor_principal">
+        <div class="carrito_contenedor_centro">
+            <div class="carrito_bloque_0">
+                <div class="carrito_bloque_0_izq">
+                    <div class="carrito_bloque_0_titulo">
+                        <h3>Carrito de compras</h3>
+                    </div>
+                    <div class="carrito_bloque_0_tabla">
+                        <div class="cabecera_de_tabla">
+                            <div class="tabla_indicadores_producto">
+                                <p>PRODUCTO</p>
+                            </div>
+                            <div class="tabla_indicadores_precio">
+                                <p>PRECIO</p>
+                            </div>
+                            <div class="tabla_indicadores_cantidad">
+                                <p>CANTIDAD</p>
+                            </div>
+                            <div class="tabla_indicadores_subtotal">
+                                <p>SUBTOTAL</p>
+                            </div>
+                        </div>
+
+                        <div class="filas_tabla">
+                            <div class="tabla_boton_quitar">
+                                <i class="fa-solid fa-circle-xmark"></i>
+                            </div>
+                            <div class="tabla_imagen_taza">
+                                <img src="taza_tienda_0.png" alt="">
+                            </div>
+                            <div class="tabla_taza_descripcion">
+                                <p>Taza personalizada - 11 OZ, Normal</p>
+                            </div>
+                            <div class="tabla_taza_precio">
+                                <p>S/30.00</p>
+                            </div>
+                            <div class="tabla_cantidad">
+                                <div class="controladores_cantidad">
+                                    <button>--</button>
+                                    <input type="text" placeholder="1">
+                                    <button>+</button>
+                                </div>
+                            </div>
+                            <div class="tabla_taza_total">
+                                <p>S/30.00</p>
+                            </div>
+                        </div>
+
+                        <div class="filas_tabla">
+                            <div class="tabla_boton_quitar">
+                                <i class="fa-solid fa-circle-xmark"></i>
+                            </div>
+                            <div class="tabla_imagen_taza">
+                                <img src="taza_tienda_1.png" alt="">
+                            </div>
+                            <div class="tabla_taza_descripcion">
+                                <p>Taza personalizada - 11 OZ, Normal</p>
+                            </div>
+                            <div class="tabla_taza_precio">
+                                <p>S/30.00</p>
+                            </div>
+                            <div class="tabla_cantidad">
+                                <div class="controladores_cantidad">
+                                    <button>--</button>
+                                    <input type="text" placeholder="1">
+                                    <button>+</button>
+                                </div>
+                            </div>
+                            <div class="tabla_taza_total">
+                                <p>S/30.00</p>
+                            </div>
+                        </div>
+                        <div class="filas_tabla">
+                            <div class="tabla_boton_quitar">
+                                <i class="fa-solid fa-circle-xmark"></i>
+                            </div>
+                            <div class="tabla_imagen_taza">
+                                <img src="taza_tienda_2.png" alt="">
+                            </div>
+                            <div class="tabla_taza_descripcion">
+                                <p>Taza personalizada - 11 OZ, Normal</p>
+                            </div>
+                            <div class="tabla_taza_precio">
+                                <p>S/30.00</p>
+                            </div>
+                            <div class="tabla_cantidad">
+                                <div class="controladores_cantidad">
+                                    <button>--</button>
+                                    <input type="text" placeholder="1">
+                                    <button>+</button>
+                                </div>
+                            </div>
+                            <div class="tabla_taza_total">
+                                <p>S/30.00</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="opciones_de_tabla">
+                        <div class="carrito_cupon">
+                            <input type="text" id="codigo_cupon">
+                            <button>Aplicar cupón</button>
+                        </div>
+                        <div class="actualizar_carrito">
+                            <button>Actualizar carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carrito_bloque_0_der">
+                    <div class="carrito_bloque_0_titulo">
+                        <h3>Total del carrito</h3>
+                    </div>
+                    <div class="carrito_bloque_0_subtotal">
+                        <p>Subtotal</p>
+                        <p>S/90.00</p>
+                    </div>
+                    <div class="carrito_bloque_0_total">
+                        <p>Total</p>
+                        <p>S/90.00</p>
+                    </div>
+                    <div class="carrito_bloque_0_finalizar_compra">
+                        <a href="Finalizar_compra.html">FINALIZAR COMPRA</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer footer_carrito">
+        <p>&copy; Página hecha por <span>Carlos Garcia Sayre</span></p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
