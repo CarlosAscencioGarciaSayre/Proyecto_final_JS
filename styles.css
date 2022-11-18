@@ -131,7 +131,7 @@ img.btn-whatsapp:hover {
     width: 100%;
     display: flex;
     justify-content: center;
-    background-image: url("../banner_3.png");
+    background-image: url("banner_3.png");
 }
 
 .hero {
